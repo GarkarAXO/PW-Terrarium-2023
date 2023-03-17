@@ -13,6 +13,6 @@ width = "200"
 Proyecto de la clase de programación web orientado a practicar las bases del código HTML + CSS + JS 👍
 
 ## Notas de clase
-1. HTML
+1. [HTML](./notes/html.md)
 2. CSS
 3. JS
