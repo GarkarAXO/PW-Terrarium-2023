@@ -1,0 +1,43 @@
+/* estilos del terrario */
+h1{
+    text-align: center;
+    border: 3px;
+    border-style: dashed;
+}
+#left-container{
+    position: absolute;
+    left: 0px;
+    top: 0;
+    background-color: #cacaca;
+    height: 100%;
+    width: 15%;
+    border: 3px;
+    border-style: dashed;
+    border-color: blueviolet;
+    padding: 10px;
+}
+#right-container{
+    position: absolute;
+    right: 0px;
+    top: 0;
+    background-color: #cacaca;
+    position: absolute;
+    height: 100%;
+    width: 15%;
+    border: 3px;
+    border-style: dashed;
+    border-color: blue;
+    padding: 10px;
+}
+.plant-holder img{
+    width: 50px;
+    background: #222;
+    border-radius: 50%;
+}
+.terrarium{
+    align-items: center;
+    border-radius: 20px;
+    background: aliceblue;
+    width: 250px;
+    height: 250px;
+}
