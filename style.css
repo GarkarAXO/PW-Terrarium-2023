@@ -1,19 +1,14 @@
 /* estilos del terrario */
 h1{
     text-align: center;
-    border: 3px;
-    border-style: dashed;
 }
 .container{
     padding: 10px;
     position: absolute;
     top: 0;
-    background-color: #cacaca;
+    /* background-color: #cacaca00; */
     height: 100%;
     width: 15%;
-    border: 3px;
-    border-style: dashed;
-    border-color: blueviolet;
 }
 #left-container{
     left: 0px;
@@ -25,9 +20,6 @@ h1{
     position: relative;
     height: 13%;
     left: -10px;
-    border: 3px;
-    border-style:dotted;
-    border-color: #401568;
 }
 .plant{
     position: absolute;
@@ -35,9 +27,61 @@ h1{
     max-height: 150%;
     z-index: 2;
 }
-.terrarium{
-    border-radius: 20px;
-    background: aliceblue;
-    width: 250px;
-    height: 250px;
+.jar-top{
+    height: 5%;
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    bottom: 80.5%;
+    background: #d1e1df;
+    opacity: 0.5;
+}
+.jar-walls{
+    height: 80%;
+    width: 60%;
+    background-color: #d1e1df;
+    border-radius: 1rem;
+    position: absolute;
+    left: 20%;
+    bottom: 0.5%;
+    opacity: 0.7;
+    z-index: -1;
+}
+.jar-bottom{
+    width: 50%;
+    height: 2%;
+    background: #d1e1df;
+    position: absolute;
+    bottom: -1.5%;
+    left: 25%;
+    opacity: 0.7;
+    z-index: -3;
+}
+.dirt{
+    position: absolute;
+    height: 10%;
+    width: 60%;
+    left: 20%;
+    bottom: 0.5%;
+    background: #3a241d;
+    border-radius: 0rem 0rem 1rem 1rem;
+    z-index: -1;
+}
+.jar-glossy-short{
+    position: absolute;
+    height: 8%;
+    width: 2%;
+    left: 4%;
+    top: 45%;
+    background: #fff;
+    border-radius: 1rem;
+}
+.jar-glossy-long{
+    position: absolute;
+    height: 25%;
+    width: 2%;
+    left: 4%;
+    top: 55%;
+    background: #fff;
+    border-radius: 1rem;
 }
