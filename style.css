@@ -1,4 +1,7 @@
 /* estilos del terrario */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
 h1{
     text-align: center;
 }
@@ -34,7 +37,7 @@ h1{
     left: 25%;
     bottom: 80.5%;
     background: #d1e1df;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 .jar-walls{
     height: 80%;
@@ -44,7 +47,7 @@ h1{
     position: absolute;
     left: 20%;
     bottom: 0.5%;
-    opacity: 0.7;
+    opacity: 0.5;
     z-index: -1;
 }
 .jar-bottom{
@@ -70,18 +73,18 @@ h1{
 .jar-glossy-short{
     position: absolute;
     height: 8%;
-    width: 2%;
+    width: 2.5%;
     left: 4%;
-    top: 45%;
-    background: #fff;
+    top: 40%;
+    background: #f3ffff;
     border-radius: 1rem;
 }
 .jar-glossy-long{
     position: absolute;
-    height: 25%;
-    width: 2%;
+    height: 30%;
+    width: 2.5%;
     left: 4%;
-    top: 55%;
-    background: #fff;
+    top: 50%;
+    background: #f3ffff;
     border-radius: 1rem;
 }
