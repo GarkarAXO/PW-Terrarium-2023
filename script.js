@@ -1,51 +1,31 @@
-let plant1 = document.getElementById("plant1");
- plant1.addEventListener("click", function(){
-    let name = prompt("hola, ¿cual es tu nombre?");
-    if (name !== "")
-    alert( `${name} please, SAVE THE PLANET!!! 🌱`);
- });
+dragElement(document.getElementById("plant1"));
+dragElement(document.getElementById("plant2"));
+dragElement(document.getElementById("plant3"));
+dragElement(document.getElementById("plant4"));
+dragElement(document.getElementById("plant5"));
+dragElement(document.getElementById("plant6"));
+dragElement(document.getElementById("plant7"));
+dragElement(document.getElementById("plant8"));
+dragElement(document.getElementById("plant9"));
+dragElement(document.getElementById("plant10"));
+dragElement(document.getElementById("plant11"));
+dragElement(document.getElementById("plant12"));
+dragElement(document.getElementById("plant13"));
+dragElement(document.getElementById("plant14"));
 
+function dragElement(plantElement) {
+    // Variables para establecer posiciones iniciales y finales
+    let pos1 = 0,
+    pos2 = 0,
+    pos3 = 0,
+    pos4 = 0;
+    //registrar un evento
+    plantElement.onpointerdown =  pointerDrag
 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// document.getElementById("plant2");
-// document.getElementById("plant3");
-// document.getElementById("plant4");
-// document.getElementById("plant5");
-// document.getElementById("plant6");
-// document.getElementById("plant7");
-// document.getElementById("plant8");
-// document.getElementById("plant9");
-// document.getElementById("plant10");
-// document.getElementById("plant11");
-// document.getElementById("plant12");
-// document.getElementById("plant13");
-// document.getElementById("plant14");
-
+    function pointerDrag(event){
+        //Previene todo comportamiento
+        //que tenga el navegador por defecto
+        event.preventDefault();
+        console.log("+On pointer down");
+    }
+}
